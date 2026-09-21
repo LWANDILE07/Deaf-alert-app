@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#0F141B">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acoustic Guardian"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Watching for smoke alarms, glass breaking, and calls for help."
+        android:textColor="#8FA8C7"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/listeningStatus"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="◉\n\nListening"
+        android:textColor="#45B7A5"
+        android:textSize="20sp"
+        android:background="#1B232E" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Silent Guardian is listening..."
+        android:textColor="#8FA8C7"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+
+
+    <Button
+        android:id="@+id/contactsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Emergency Contacts"
+        android:backgroundTint="#1B232E"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
