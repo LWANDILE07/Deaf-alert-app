@@ -1,6 +1,6 @@
 # Acoustic Guardian
 
-An accessibility app that listens for emergency sounds — smoke alarms, breaking glass — and alerts Deaf and hard-of-hearing users through flashlight, vibration, and automatic SMS to emergency contacts.
+An accessibility app that listens for emergency sounds — smoke alarms, breaking glass and alerts Deaf and hard-of-hearing users through flashlight, vibration, and automatic SMS to emergency contacts.
 
 ## The Problem
 Standard smoke alarms and emergency sounds are auditory-only, leaving Deaf and hard-of-hearing individuals without warning during a fire, break-in, or other emergency — especially while asleep or without hearing aids. Existing assistive devices (bed-shakers, dedicated strobe alarms) require buying and installing extra hardware.
@@ -40,6 +40,7 @@ Sound classification uses Google's open-source [YAMNet](https://tfhub.dev/google
 - WhatsApp automation
 - Broader alarm-sound training data
 - iOS support
+- Hearing aid 
 
 ## Team
 - **Rethabile** — UI/UX Design
