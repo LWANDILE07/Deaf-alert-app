@@ -40,7 +40,7 @@ Sound classification uses Google's open-source [YAMNet](https://tfhub.dev/google
 - WhatsApp automation
 - Broader alarm-sound training data
 - iOS support
-- Hearing aid 
+- Hearing aid integration 
 
 ## Team
 - **Rethabile** — UI/UX Design
